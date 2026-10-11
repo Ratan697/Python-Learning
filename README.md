@@ -10,8 +10,8 @@ Welcome to my Python learning repository! This project tracks my complete step-b
   - [x] Variables, Data Types & Output Formatting (f-strings)
   - [x] User Input, Type Casting & Module Imports (`datetime`)
   - [x] Conditional Statements (`if`, `elif`, `else`) & Logical Operators
-  - [ ] Loops (`for`, `while`) & Loop Control (`break`, `continue`) *(Up Next!)*
-  - [ ] Core Data Structures (Lists, Tuples, Dictionaries, Sets)
+  - [x] Loops (`for`, `while`) & Loop Control (`break`, `continue`)
+  - [ ] Core Data Structures (Lists & Slicing [x], Dictionaries & Sets [Up Next!])
   - [ ] Functions, Scope, Arguments & Return Values
   - [ ] File I/O & Exception Handling (`try`, `except`)
 - [ ] **Phase 2: Object-Oriented Programming (OOP)**
@@ -55,6 +55,23 @@ Welcome to my Python learning repository! This project tracks my complete step-b
   - Nested conditionals for user category discounts (Students vs. Standard Adults)
   - Interactive decision-making logic
 
+### 4. `guess_game.py` — Loops, State Tracking & Game Logic
+- **Concepts Covered:**
+  - Dynamic random number generation with `random.randint()`
+  - Controlled iteration using a `while` loop with max attempt limits
+  - Loop interruption using `break` on target match
+  - State tracking using augmented assignment operators (`+=`)
+  - Conditional feedback logic guiding user inputs (high / low)
+
+### 5. `score_analyzer.py` — Lists, Slicing & Statistical Computations
+- **Concepts Covered:**
+  - Dynamic data collection and storage using Python lists (`.append()`)
+  - Loop iteration using `for` with dynamic `range()`
+  - Built-in aggregations for dataset statistics: `len()`, `max()`, `min()`, and `sum()`
+  - Floating-point precision formatting inside f-strings (`{value:.2f}`)
+  - Immutability vs. In-place mutation: non-destructive sorting via `sorted(..., reverse=True)`
+  - Subsetting collections using list slicing (`[:3]`)
+
 ---
 
 ## 🚀 How to Run the Programs
@@ -70,6 +87,12 @@ python calculator_basic.py
 
 # Run Movie Ticket Pricing System
 python ticket_pricing.py
+
+# Run Number Guessing Game
+python guess_game.py
+
+# Run Student Score Analyzer
+python score_analyzer.py
 ```
 
 ---
