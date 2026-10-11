@@ -1,0 +1,1 @@
+scores.sort(reverse=True)
