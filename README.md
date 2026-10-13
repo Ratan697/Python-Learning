@@ -11,8 +11,8 @@ Welcome to my Python learning repository! This project tracks my complete step-b
   - [x] User Input, Type Casting & Module Imports (`datetime`)
   - [x] Conditional Statements (`if`, `elif`, `else`) & Logical Operators
   - [x] Loops (`for`, `while`) & Loop Control (`break`, `continue`)
-  - [ ] Core Data Structures (Lists & Slicing [x], Dictionaries & Sets [Up Next!])
-  - [ ] Functions, Scope, Arguments & Return Values
+  - [x] Core Data Structures (Lists, Slicing, Sets & Dictionaries / Hash Maps)
+  - [ ] Functions, Scope, Arguments & Return Values *(Up Next!)*
   - [ ] File I/O & Exception Handling (`try`, `except`)
 - [ ] **Phase 2: Object-Oriented Programming (OOP)**
   - [ ] Classes, Objects & `__init__` Constructors
@@ -72,6 +72,13 @@ Welcome to my Python learning repository! This project tracks my complete step-b
   - Immutability vs. In-place mutation: non-destructive sorting via `sorted(..., reverse=True)`
   - Subsetting collections using list slicing (`[:3]`)
 
+### 6. `word_counter.py` — Hash Maps (Dictionaries), Sets & Text Preprocessing
+- **Concepts Covered:**
+  - String case normalization (`.lower()`) and whitespace tokenization (`.split()`)
+  - Fast deduplication and unique vocabulary calculation via Python Sets (`set()`)
+  - Frequency distribution mapping using Dictionaries (Hash Maps) with $O(N)$ linear time complexity
+  - Direct collection iteration (`for word in split:`) and key membership checking (`if word in counts:`)
+
 ---
 
 ## 🚀 How to Run the Programs
@@ -93,6 +100,9 @@ python guess_game.py
 
 # Run Student Score Analyzer
 python score_analyzer.py
+
+# Run Word & Vocabulary Frequency Counter
+python word_counter.py
 ```
 
 ---
